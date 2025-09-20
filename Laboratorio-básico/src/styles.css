@@ -1,0 +1,35 @@
+.list-user-list-container,.list-characters-container,.list-character-container {
+  display: grid;
+  grid-template-rows: 20px;
+  grid-auto-rows: 80px;
+  grid-gap: 10px 5px;
+}
+.list-user-list-container {
+  grid-template-columns: 80px 1fr 3fr;
+
+}
+.list-characters-container {
+  grid-template-columns: 80px 1fr 3fr 1fr;
+
+}
+.list-character-container {
+  grid-template-columns: 80px 1fr 2fr 1fr 1fr;
+ 
+}
+
+.list-header {
+  background-color: #2f4858;
+  color: white;
+  font-weight: bold;
+}
+
+.list-user-list-container > img, .list-character-container > img, .list-characters-container > img {
+  width: 80px;
+}
+
+.a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
