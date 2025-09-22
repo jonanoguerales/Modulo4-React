@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100svh;
+}
+
+img{
+    height: 250px;
+    width: 150px;
+    object-fit: cover;
+}
