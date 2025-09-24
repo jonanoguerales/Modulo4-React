@@ -1,4 +1,4 @@
-import { AppLayout } from "../layout/app-layout";
+import { AppLayout } from "../layouts/app-layout";
 import { Puppies } from "../puppies";
 
 export const SceneListPuppies = () => {

@@ -1,5 +1,5 @@
 import { Kitties } from "../kitties";
-import { AppLayout } from "../layout/app-layout";
+import { AppLayout } from "../layouts/app-layout";
 
 export const SceneListKitties = () => {
     return (
